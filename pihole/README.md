@@ -22,3 +22,7 @@ Pi-hole deployed as network-wide DNS filtering solution on Ubuntu Server VM.
 - 83,600+ domains blocked
 - Network-wide ad and tracker blocking
 - Custom DNS entries for homelab services
+  
+## Dashboard
+
+![Pi-hole Dashboard](pihole-dashboard.png)
