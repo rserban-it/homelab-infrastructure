@@ -35,6 +35,10 @@ Personal homelab built from scratch to develop and demonstrate practical skills 
 - WireGuard VPN with NAT and remote access
 - Pi-hole DNS filtering integrated across entire home network
 - 802.1Q VLAN segmentation on managed switch
+  
+  ## Network Diagram
+
+![Network Diagram](architecture/network-diagram.svg)
 
 ## Status
 
