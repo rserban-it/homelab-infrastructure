@@ -56,3 +56,37 @@ Detailed documentation for each component available in the folders above.
 
 ### Pi-hole DNS Filtering
 ![Pi-hole Dashboard](pihole/pihole-dashboard.png)
+
+## Skills Demonstrated
+
+- Active Directory Administration (Users, Groups, OUs, GPO)
+- DNS Management (AD-integrated zones, forwarders)
+- DHCP Scope Configuration and Management
+- Linux System Administration (Ubuntu Server)
+- Identity Management (Linux domain join via realmd/SSSD)
+- Group Policy Management and Deployment
+- VPN Technologies (WireGuard with NAT)
+- Network Segmentation (802.1Q VLANs)
+- Virtualization (Proxmox VE, VM lifecycle management)
+- Infrastructure Troubleshooting and Documentation
+
+## Troubleshooting Examples
+
+**Windows 11 domain join failed — IPv6 interference**
+Symptom: "homelab.local could not be contacted" despite full network connectivity.
+Root cause: IPv6 was interfering with Kerberos and DC discovery.
+Fix: `Disable-NetAdapterBinding -Name "Ethernet" -ComponentID ms_tcpip6`
+
+**DNS not resolving internal domain on Linux**
+Symptom: Ubuntu could not discover homelab.local via Pi-hole DNS.
+Root cause: Pi-hole has no knowledge of internal AD records — only Windows Server DNS does.
+Fix: Changed DNS on Ubuntu to point directly to Windows Server DC.
+
+## Roadmap
+
+- [ ] Grafana + Prometheus monitoring
+- [ ] pfSense VM for inter-VLAN routing and firewall rules
+- [ ] Pi-hole DNS forwarding for homelab.local
+- [ ] File Server with NTFS permissions and mapped drives via GPO
+- [ ] Azure integration (AZ-900 → AZ-104)
+- [ ] Backup strategy for AD and VMs
