@@ -39,6 +39,9 @@ Personal homelab built from scratch to develop and demonstrate practical skills 
   ## Network Diagram
 
 ![Network Diagram](architecture/network-diagram.svg)
+## Dashboard
+
+![Proxmox Dashboard](proxmox-dashboard.jpg)
 
 ## Status
 
