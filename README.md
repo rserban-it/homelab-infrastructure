@@ -40,9 +40,6 @@ Personal homelab built from scratch to develop and demonstrate practical skills 
 
 ![Network Diagram](architecture/network-diagram.svg)
 
-## Dashboard
-
-![Proxmox Dashboard](proxmox-dashboard.jpg)
 
 ## Status
 
@@ -51,3 +48,11 @@ Personal homelab built from scratch to develop and demonstrate practical skills 
 ## Documentation
 
 Detailed documentation for each component available in the folders above.
+
+## Screenshots
+
+### Proxmox VE Dashboard
+![Proxmox Dashboard](architecture/proxmox-dashboard.jpg)
+
+### Pi-hole DNS Filtering
+![Pi-hole Dashboard](pihole/pihole-dashboard.png)
