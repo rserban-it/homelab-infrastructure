@@ -1,5 +1,4 @@
-## Network Diagram
-![Network Diagram](architecture/network-diagram.svg)
+
 <svg width="100%" viewBox="0 0 680 620" xmlns="http://www.w3.org/2000/svg" role="img">
 <title>Homelab Network Diagram</title>
 <desc>Homelab infrastructure: ISP router, managed switch with VLANs, Proxmox VE with Windows Server 2022, Ubuntu Server, and Windows 11 client VMs</desc>
